@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Visualizador de Algoritmos</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Visualizador de Algoritmos</h1>
+    <div>
+      <label for="algorithm">Selecciona un algoritmo:</label>
+      <select id="algorithm">
+        <option value="sorting/quicksort">QuickSort</option>
+        <option value="sorting/mergesort">MergeSort</option>
+        <!-- Agrega más opciones según los algoritmos disponibles -->
+      </select>
+    </div>
+    <div>
+      <label for="input"
+        >Ingresa los datos de entrada (separados por comas):</label
+      >
+      <input type="text" id="input" placeholder="e.g., 3,1,4,1,5,9" />
+    </div>
+    <button onclick="runAlgorithm()">Ejecutar</button>
+    <div id="output"></div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
