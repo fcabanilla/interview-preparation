@@ -6,7 +6,7 @@
   "name": "interview-preparation",
   "version": "1.0.0",
   "description": "A Node.js-based platform for visualizing and interacting with various algorithms and data structures.",
-  "main": "index.js",
+  "main": "server.js",
   "dependencies": {
     "argparse": "^2.0.1",
     "bluebird": "^3.7.2",
@@ -32,7 +32,8 @@
     "xmlcreate": "^2.0.4"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
